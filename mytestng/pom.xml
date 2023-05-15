@@ -24,10 +24,16 @@
 </dependency>
     </dependencies>
     <properties>
+        <property>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-    </properties>
+    </property>
+    <property>
+                <name>allure.results.directory</name>
+                <value>target/allure-results</value>
+            </property>
+     </properties>
     <build>
         <plugins>
             <plugin>
