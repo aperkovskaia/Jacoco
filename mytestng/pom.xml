@@ -17,10 +17,7 @@
             <artifactId>selenium-java</artifactId>
             <version>3.141.59</version>
         </dependency>
-        <dependency>
-    <groupId>org.jenkins-ci.plugins</groupId>
-    <artifactId>javadoc</artifactId>
-</dependency>
+        
     </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
