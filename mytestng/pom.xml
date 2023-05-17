@@ -28,14 +28,7 @@
     <aspectj.version>1.8.10</aspectj.version>
 </properties>
 
-<dependencies>
-    <dependency>
-        <groupId>io.qameta.allure</groupId>
-        <artifactId>allure-testng</artifactId>
-        <version>LAST_VERSION</version>
-        <scope>test</scope>
-    </dependency>
-</dependencies>
+
 
 <build>
     <plugins>
